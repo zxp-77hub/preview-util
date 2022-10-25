@@ -16,6 +16,14 @@ html,body{
     }
 }
 
+
+#check {
+	margin-top: 20px;
+}
+#check:checked + label .box {
+    animation-play-state: paused;
+}
+
 .box{
 	width: 300px;
 	height: 300px;
